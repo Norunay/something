@@ -1,0 +1,19 @@
+.btn{
+    padding: 19px 50px 19px 82px;
+    border-radius: 20px;
+    background: $mainclr;
+    border: 1px solid $mainclr;
+    position: relative;
+    color: white;
+}
+.btn::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    background: url(/img/RocketLaunch.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: calc(50% - 10px);
+}

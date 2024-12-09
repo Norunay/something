@@ -1,0 +1,64 @@
+.hero__inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 22px;
+    justify-items: center;
+}
+.hero__text{
+    display: flex;  
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+.hero__title{
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.hero__butt{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.hero__actions{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.3em;
+    font-weight: 700;
+    .hero__smaller{
+        font-weight: 400;
+        font-size: 1.03em;
+    }
+}
+.hero__user{
+    padding-left: 30px;
+    position: relative;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.hero__user::after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    top: calc(50% - 12px);
+    left: -2px;
+    background: url(/img/power.jpg) no-repeat;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.hero__art{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    .hero__info{
+        padding: 0px 20px;
+    }
+}
+.hero__subinfo{
+    font-size: 1em;
+    margin-top: 19px;
+}
