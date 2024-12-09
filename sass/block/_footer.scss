@@ -1,0 +1,47 @@
+.footer{
+    background-color: #3B3B3B;
+}
+.footer__inner{
+    display: grid;
+    grid-template-columns: 33fr 24fr 42fr;
+}
+.footer__logopart{
+    >span{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 700;
+    }
+}
+p{
+    font-size: 1rem;
+    color: #CCCCCC;
+    max-width: 238px;
+    margin-top: 20px;
+}
+.finp{
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 420px;
+    padding: 20px;
+    display: inline-block;
+    position: relative;
+    button{
+        padding: 20px;
+        position: absolute;
+        border: none;
+        background-color: $mainclr;
+        border-radius: 20px;
+        top: 0;
+        font-size: 1rem;
+        right: 0;
+    }
+    input{
+        background-color: transparent;
+        min-width: 2px;
+        outline: none;
+        border: none;
+        color: black;
+    }
+}

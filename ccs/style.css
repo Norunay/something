@@ -31,6 +31,16 @@ a {
   padding: 0px 20px;
 }
 
+.container--footer {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 20px 0;
+}
+.container--footer > div {
+  max-width: 100%;
+  padding: 0px 20px;
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -167,7 +177,8 @@ section {
 }
 
 .create__subtitle {
-  font-size: 1em;
+  font-size: 0.95em;
+  max-width: 100%;
 }
 
 .create__butt {
@@ -212,6 +223,12 @@ section {
   font-size: 0.8em;
 }
 
+.create__subinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .work__top {
   font-size: 22px;
 }
@@ -221,6 +238,8 @@ section {
   border-radius: 20px;
   padding: 20px;
   max-width: 31%;
+  text-align: center;
+  width: 2000px;
   text-align: center;
   font-size: 1em;
   margin-top: 60px;
@@ -238,10 +257,94 @@ section {
   margin-top: 25px;
 }
 
+.work__subinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work__subinfo > * {
+  margin: 0;
+  padding: 0;
+}
+
 .work__list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 43.3px;
+}
+
+.footer {
+  background-color: #3B3B3B;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 33fr 24fr 42fr;
+}
+
+.footer__logopart > span {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  color: #CCCCCC;
+  max-width: 238px;
+  margin-top: 20px;
+}
+
+.finp {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 420px;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+}
+.finp button {
+  padding: 20px;
+  position: absolute;
+  border: none;
+  background-color: #A259FF;
+  border-radius: 20px;
+  top: 0;
+  font-size: 1rem;
+  right: 0;
+}
+.finp input {
+  background-color: transparent;
+  min-width: 2px;
+  outline: none;
+  border: none;
+  color: black;
+}
+
+.live__inner {
+  height: 640px;
+  background: url(/img/xayagava.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+.live__inner div, .live__inner span {
+  margin: 0 50px 60px;
+}
+.live__inner div h2 {
+  font-size: 51px;
+  margin: 30px 0;
+}
+.live__inner span {
+  display: block;
+  width: 295px;
+  height: 144px;
+  background: url(/img/Auction\ Timer.svg) no-repeat;
 }/*# sourceMappingURL=style.css.map */
