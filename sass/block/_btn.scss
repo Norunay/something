@@ -5,6 +5,7 @@
     border: 1px solid $mainclr;
     position: relative;
     color: white;
+    text-wrap: nowrap;
     max-width: fit-content;
 }
 .btn::after{
