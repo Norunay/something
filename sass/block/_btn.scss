@@ -5,6 +5,7 @@
     border: 1px solid $mainclr;
     position: relative;
     color: white;
+    max-width: fit-content;
 }
 .btn::after{
     content: '';
@@ -16,4 +17,7 @@
     background-position: center;
     background-size: cover;
     top: calc(50% - 10px);
+}
+.btn--transparent{
+    background-color: transparent;
 }

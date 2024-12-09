@@ -1,0 +1,23 @@
+.create__top{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-items: center;
+    align-items: end;
+    .btn{
+        font-size: 1rem;
+    }
+}
+.create__title{
+    font-size: 2em;
+}
+.create__subtitle{
+    font-size: 1em;
+}
+.create__butt{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
